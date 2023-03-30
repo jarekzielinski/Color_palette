@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorActivity">
+    <LinearLayout
+        android:id="@+id/color_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/red_textView"
+            style="@style/LabelStyle"
+            android:text="@string/red" />
+
+        <SeekBar
+            android:id="@+id/red_seekbar"
+            style="@style/ColorSeekBarStyle" />
+
+        <TextView
+            android:id="@+id/green_textView"
+            style="@style/LabelStyle"
+            android:text="@string/green" />
+
+        <SeekBar
+            android:id="@+id/green_seekbar"
+            style="@style/ColorSeekBarStyle" />
+
+        <TextView
+            android:id="@+id/blue_textView"
+            style="@style/LabelStyle"
+            android:text="@string/blue" />
+
+        <SeekBar
+            android:id="@+id/blue_seekbar"
+            style="@style/ColorSeekBarStyle" />
+
+        <Button
+            android:id="@+id/generate_button"
+            style="@style/ButtonStyle"
+            android:text="@string/generate" />
+
+        <Button
+            android:id="@+id/save_button"
+            style="@style/ButtonStyle"
+            android:text="@string/save" />
+    </LinearLayout>
+</ScrollView>
